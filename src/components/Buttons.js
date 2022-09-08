@@ -15,6 +15,7 @@ function onShowComments(){setShowComments(!showComments)}
             <button onClick={onDislikeCount}>{dislikeCount} 👎</button>
             <br/><br/>
             <button onClick={onShowComments}>{showComments ? 'Hide' : 'Show'} comments</button>
+            <hr />
         </>
 
     )

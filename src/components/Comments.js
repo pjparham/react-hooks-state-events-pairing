@@ -12,10 +12,11 @@ function Comments({ videoComments }){
     })
 
     return (
-        <>
+        // <div style={{display: showComments ? 'inline' : 'hidden'}}>
+        <div >
             <h2>{videoComments.length} comments</h2>
             {bothComments}
-        </>
+        </div>
         
     )
 }
